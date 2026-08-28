@@ -1,0 +1,9 @@
+int main() {
+    int a = 10;
+    float b = 20.5;
+    // This is a comment
+    if (a < b) {
+        return a + b;
+    }
+    return 0;
+}

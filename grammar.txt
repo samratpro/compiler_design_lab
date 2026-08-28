@@ -1,0 +1,9 @@
+# Non-terminals should be uppercase
+# Terminals are lowercase or symbols
+# 'epsilon' is used for epsilon transitions
+
+E -> T Eprime
+Eprime -> + T Eprime | epsilon
+T -> F Tprime
+Tprime -> * F Tprime | epsilon
+F -> ( E ) | id
